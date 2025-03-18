@@ -21,7 +21,7 @@ class Main {
             for(int j =0; j < M; j++){
                 arr[i][j] = Integer.parseInt(st.nextToken());
                 if(arr[i][j] == 1)
-                    q.add(ne w int[]{i,j});
+                    q.add(new int[]{i,j});
             }
         }
         
