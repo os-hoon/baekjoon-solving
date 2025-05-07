@@ -29,8 +29,8 @@ class Main {
                     sum[i][j] = sum[i][j-1] + arr[i][j];          
         }
 
-        int ans = 0;
         for(int i =0; i < M; i++){
+            int ans = 0;
             st = new StringTokenizer(br.readLine());
             int x1 = Integer.parseInt(st.nextToken());
             int y1 = Integer.parseInt(st.nextToken());
@@ -43,7 +43,6 @@ class Main {
             }
 
             System.out.println(ans);
-            ans = 0;
         }
         
 
