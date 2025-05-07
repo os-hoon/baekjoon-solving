@@ -23,8 +23,6 @@ class Main {
             for(int j = 0; j <=N;j++)
                 if(j == 0)
                     sum[i][j] = sum[i-1][N];
-                else if(j == 1)
-                    sum[i][j] = sum[i-1][N] + arr[i][j];
                 else
                     sum[i][j] = sum[i][j-1] + arr[i][j];          
         }
